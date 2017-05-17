@@ -1,0 +1,105 @@
+{
+    "caller":{
+        "ret":0,
+        "msg":"Retour ajax ok",
+        "result":{
+            "data1": 1,
+            "data2": 2,
+            "data3": 3
+        }
+    },
+    "update":[
+        {
+            "element":"#date_reelle_debut_travaux",
+            "value":"12/10/2015",
+            "source":"document"
+        },
+        {
+            "element":".date_reelle_fin_travaux",
+            "value":"13/10/2015"
+        }
+    ],
+    "prepend":[
+        {
+            "element":"#date_reelle_debut_travaux",
+            "value":"12/10/2015",
+            "source":"document"
+        },
+        {
+            "element":".date_reelle_fin_travaux",
+            "value":"13/10/2015"
+        }
+    ],
+    "append":[
+        {
+            "element":"#date_reelle_debut_travaux",
+            "value":"12/10/2015",
+            "source":"document"
+        },
+        {
+            "element":".date_reelle_fin_travaux",
+            "value":"13/10/2015"
+        }
+    ],
+    "remove":[
+        {
+            "element":"#date_reelle_debut_travaux",
+            "source":"document"
+        },
+        {
+            "element":".date_reelle_fin_travaux",
+        }
+    ],
+    "script":[
+        {
+            "functioname":"reloadpage",
+            "args": false           ]
+        },
+        {
+            "functioname":"mafonction",
+            "args": [
+                ["id","test2",12],
+                "Hello"
+            ]
+        }
+    ],
+    "notify":{
+        "info":[
+            {
+                "message":"notif info 1"
+            },
+            {
+                "message":"notif info 2"
+            }
+
+        ],
+        "error":[
+            {
+                "message":"notif error 1"
+            },
+            {
+                "message":"notif error 2"
+            }
+
+        ],
+        "success":[
+            {
+                "message":"notif success 1"
+            },
+            {
+                "message":"notif success 2"
+            }
+
+        ],
+        "warning":[
+            {
+                "message":"notif warning 1"
+            },
+            {
+                "message":"notif warning 2"
+            }
+
+        ]
+    },
+    "reloaddossier":["RDP","APS"]
+}
