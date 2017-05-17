@@ -11,9 +11,11 @@ jsonProcess.func_monTraitement = function(dataObject){
  * Appel: jsonProcess.process(jsonData);
  *
  */
+if (vdeapps == undefined) {
+	throw new Error("vdeapps/vdeapps.js not loaded");
+}
 
-if (window.jsonProcess == undefined)
-window.jsonProcess={
+vdeapps.load('json-process',{
 		
 	options:{
 		// Enable/Disable jsonProcess
@@ -272,4 +274,9 @@ window.jsonProcess={
 			}
 		}
 	}
-}
+});
+} 
+catch (e) {
+	console.error(e.message())
+};
+
