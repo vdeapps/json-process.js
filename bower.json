@@ -1,0 +1,36 @@
+{
+  "name": "json-process.js",
+  "description": "Traitement auto après un appel AJAX, au format JSON",
+  "keywords": [
+    "ajax",
+    "json"
+  ],
+  "authors": [
+    { "name": "vdeApps" }
+  ],
+  "dependencies": {
+    "vdeapps.js" : "vdeapps/vdeapps.js#^1.0",
+    "jquery": ">=1.6.0"
+  },
+  "main": [
+    "dist/js/json-process.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vdeapps/json-process.git"
+  },
+  "license" : [
+    "MIT",
+    "GPL-2.0+"
+  ],
+  "ignore": [
+    "/node_modules",
+    "/bower_components",
+    "/.git",
+    "/src",
+    "/test",
+    "/Gruntfile.js",
+    "/package.json",
+    "/index.html"
+  ]
+}
